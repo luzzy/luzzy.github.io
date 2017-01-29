@@ -1,0 +1,27 @@
+---
+layout: post
+title: "jekyll"
+date: 2017-01-29 19:19:19 +0000
+---
+
+### install 
+    pacman -S ruby
+    gem install jekyll bundler
+    jekyll new mysite
+    cd mysite
+    bundle exec jekyll serve
+for out net
+    bundle exec jekyll serve --host 0.0.0.0
+
+### github pages
+    git init
+    git add .
+    git commit -m "some..."
+    git remote add origin https://github.com/username/username.github.io.git
+    git push -u origin master
+for update site or post
+    git add .
+    git commit -m "something"
+    git push -u origin master
+
+
