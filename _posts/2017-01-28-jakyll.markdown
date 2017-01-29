@@ -12,6 +12,7 @@ date: 2017-01-29 19:19:19 +0000
     bundle exec jekyll serve
 
 for out net
+
     bundle exec jekyll serve --host 0.0.0.0
 
 ### github pages
@@ -22,6 +23,7 @@ for out net
     git push -u origin master
 
 for update site or post
+
     git add .
     git commit -m "something"
     git push -u origin master
